@@ -1,12 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Presentation</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple website showcasing a Google Slides presentation">
+    <title>Google Slides Presentation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 80vh;
+            padding: 20px;
+        }
+        iframe {
+            border: none;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        footer a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-  <h1>My Google Slides Presentation</h1>
-  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT9_J-2DVcX7EU9tP-leA3GD2MwdLOcD9X4Lh96zQG3xEe4o12eX1MgwU2rGE9Nyl1Lerqy6MTcJ75o/pub?start=false&loop=false&delayms=3000" width="960" height="540" frameborder="0" allowfullscreen></iframe>
+    <header>
+        <h1>Welcome to My Google Slides Presentation</h1>
+    </header>
+    <main>
+      <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT9_J-2DVcX7EU9tP-leA3GD2MwdLOcD9X4Lh96zQG3xEe4o12eX1MgwU2rGE9Nyl1Lerqy6MTcJ75o/embed?start=false&loop=false&delayms=3000" frameborder="0" width="1920" height="1109" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
+</iframe>
+    </main>
+    <footer>
+        <p>Created by <a href="https://yourwebsite.com" target="_blank">Your Name</a></p>
+    </footer>
 </body>
 </html>
